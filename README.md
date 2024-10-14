@@ -2,8 +2,7 @@
 <h1 align="center">Hi 👋, from Fast Code Team </h1>
 
 <h3 align="center">A passionate Web developer from India</h3>
-
-<img align="right" alt="Coding" width="400" src="https://github.com/user-attachments/assets/b48fa5e4-f7cf-404e-a96b-8f03619edc42"  >
+<img align="right" alt="Coding" width="450" src="https://github.com/user-attachments/assets/3832bb37-3995-4a59-a706-c940ae4ad774"  >
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fastcodeweb&label=Profile%20views&color=0e75b6&style=flat" alt="fastcodeweb" /> </p>
 

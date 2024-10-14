@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Code - Foodie</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .hero{
+            min-height: 100vh;
+            background: url(food_back.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            padding-top: 20px;
+        }
+
+        .logo{
+            color: #e78f38;
+            font-size: 30px;
+            font-weight: bolder;
+            transition: .3s;
+        }
+
+        .logo:hover{
+            transform: translateX(20px);
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li{
+            margin: 0 20px;
+        }
+
+        nav ul li a{
+            font-size: 15px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover{
+            color: #e78f38;
+            border-bottom:2px solid #e78f38 ;
+        }
+
+        nav button{
+            background: #e78f38;
+            border: none;
+            color: #fff;
+            padding: 12px 35px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 2rem;
+            transition: .3s;
+        }
+
+        nav button:hover{
+            scale: .8;
+        }
+
+        .content{
+            position: absolute;
+            top: 35%;
+            left: 90px;
+        }
+
+        h2{
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        p{
+            font-size: 11px;
+            margin-top: 10px;
+            color: #eee;
+        }
+
+        .content button{
+            margin-top: 50px;
+            background: #e78f38;
+            border: 2px solid #e78f38;
+            color: #fff;
+            padding: 12px 45px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 2rem;
+            transition: .3s;
+        }
+
+        .content button:hover{
+            scale: .8;
+        }
+        .content button.know_more{
+            background: transparent;
+            border: 2px solid #e78f38;
+            color: #e78f38;
+            margin-left: 30px;
+        }
+
+        .content button.know_more:hover{
+            background: #e78f38;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="#" class="logo">FOODIE</a>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <button>Login</button>
+        </nav>
+
+        <div class="content">
+            <h2>A Taste Sensation <br> Like No Other</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id blanditiis rem debitis quis consequuntur quia  <br>magni  odio saepe exercitationem adipisci beatae, fugit totam omnis . </p>
+
+            <button>Order Now</button>
+            <button class="know_more">Know More</button>
+        </div>
+    </div>
+</body>
+</html>

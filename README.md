@@ -1,12 +1,13 @@
-![onlypposter](https://github.com/user-attachments/assets/9c9b87af-7660-4f3d-8308-72536ddea8c3)
-<h1 align="center">Hi 👋, from Fast Code Team </h1>
 
+![onlypposter](https://github.com/user-attachments/assets/9c9b87af-7660-4f3d-8308-72536ddea8c3)
+<h1 align="center">Hi 👋, From Fast Code Team</h1>
 <h3 align="center">A passionate Web developer from India</h3>
-<img align="right" alt="Coding" width="450" src="https://github.com/user-attachments/assets/e5acfe2f-64d5-4e7e-9f90-36ef839bdd49"  >
+
+<img align="right" alt="Coding" width="450" src="https://github.com/user-attachments/assets/35e2cc74-e991-412d-971f-45424c510bc4"  >
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fastcodeweb&label=Profile%20views&color=0e75b6&style=flat" alt="fastcodeweb" /> </p>
 
-- 🔭 I’m currently Working on [ YouTube](https://youtube.com/@fastcodeweb?si=yy_3BCDRYpn09oja)
+- 🔭 I’m currently Working [on YouTube](https://youtube.com/@fastcodeweb?si=yy_3BCDRYpn09oja)
 
 - 🌱 I’m currently learning **Web Development**
 
@@ -18,7 +19,7 @@
 <p align="left">
 <a href="https://fb.com/fast code" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="fast code" height="30" width="40" /></a>
 <a href="https://instagram.com/fast code" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fast code" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/fast code" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="fast code" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/fastcodeweb" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="fastcodeweb" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

@@ -1,0 +1,112 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: sans-serif;
+ }
+
+ .hero {
+     min-height: 100vh;
+     background: url(./images/future_back.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 100%;
+     padding: 10px 0;
+     margin: auto;
+     border-bottom: 2px solid #878787;
+ }
+
+ .logo {
+     width: 150px;
+ }
+
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+
+ nav ul li {
+     margin: 0 20px;
+ }
+
+ nav ul li a {
+     font-size: 15px;
+     color: #fff;
+     text-transform: uppercase;
+ }
+
+ nav ul li a:hover {
+     color: #ff7620;
+     border-bottom: 2px solid #ff7620;
+ }
+
+ nav button {
+     padding: 10px 35px;
+     background: #ff7620;
+     border: 2px solid #ff7620;
+     font-size: 15px;
+     font-weight: 600;
+     color: #fff;
+     cursor: pointer;
+     transition: .3s;
+ }
+
+ nav button:hover {
+     scale: .8;
+ }
+
+ .login {
+     background: transparent;
+     border: 2px solid #fff;
+     margin-right: 25px;
+ }
+
+ .login:hover {
+     background: #ff7620;
+     color: #ffffff;
+     border-color: #ff7620;
+ }
+
+ .content {
+     position: absolute;
+     top: 35%;
+     left: 90px;
+ }
+
+ h2 {
+     font-size: 50px;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 800;
+ }
+
+ p {
+     color: #fff;
+     font-size: 11px;
+     margin-top: 10px;
+ }
+
+ .content button {
+     background: #ff7620;
+     border: none;
+     padding: 12px 55px;
+     color: #fff;
+     font-size: 15px;
+     font-weight: 600;
+     margin-top: 50px;
+     cursor: pointer;
+     transition: .3s;
+ }
+
+ .content button:hover {
+     scale: .8;
+ }

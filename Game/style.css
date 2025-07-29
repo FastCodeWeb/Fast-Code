@@ -1,0 +1,135 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            font-family: sans-serif;
+        }
+
+        .hero{
+            min-height: 100vh;
+            background: url(./images/game_back.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 98%;
+            margin: auto;
+            padding: 8px 0;
+            border-bottom: 2px solid #fff;
+        }
+
+        .logo{
+            width: 180px;
+        }
+
+        nav ul{
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li{
+            margin: 0 20px;
+        }
+
+        nav ul li a{
+            font-size: 15px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover{
+            color: #f40b5a;
+            border-bottom: 2px solid #f40b5a;
+        }
+        nav button{
+            padding: 11px 35px;
+            border: 2px solid #fff;
+            background: transparent;
+            border-radius :2rem;
+            font-size: 15px;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        nav button:hover{
+            border-color: #f40b5a;
+            color: #f40b5a;
+            box-shadow: 0 0 20px #f40b5a;
+            scale: .8;
+        }
+        .content{
+            position: absolute;
+            top: 35%;
+            left: 90px;
+        }
+        h2{
+            color: #fff;
+            font-size: 52px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        h2 span{
+            color: #f40b5a;
+        }
+        p{
+            font-size: 11px ;
+            margin-top: 10px;
+            color: #fff;
+        }
+        .content button{
+            margin-top: 30px;
+            padding: 12px 45px;
+            background: #fff;
+            border: none;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 2rem;
+            transition: .3s;
+        }
+
+        .content button:hover{
+            scale: .8;
+        }
+
+        .content button.know_more{
+            border: 2px solid #fff;
+            color: #fff;
+            background: transparent;
+            margin-left: 25px;
+        }
+
+        .content button.know_more:hover{
+            border-color: #f40b5a;
+            color: #f40b5a;
+            box-shadow: 0 0 30px #f40b5a;
+            scale: 1.1;
+        }
+
+        .games{
+            display: flex;
+            margin-top: 50px;
+            gap: 30px;
+        }
+
+        .games img{
+            width: 140px;
+            border: 2px solid #fff;
+            border-radius: .5rem;
+            transition: .3s;
+        }
+        
+        .games img:hover{
+            border-color: #f40b5a;
+            scale: 1.2;
+            box-shadow: 0 0 20px #f40b5a;
+        }

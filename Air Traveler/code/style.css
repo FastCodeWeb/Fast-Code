@@ -1,0 +1,96 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            font-family: sans-serif;
+        }
+      
+        .hero{
+            min-height: 100vh;
+            background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(./images/air_back.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: 2px solid #fff;
+            width: 98%;
+            margin: auto;
+        }
+
+        .logo{
+            width: 150px;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+
+        nav ul li a{
+            font-size: 17px;
+            color:#fff;
+        }
+        
+        nav ul li a:hover{
+            color: #ff5500;
+            border-bottom: 2px solid #ff5500;
+        }
+        nav button{
+            padding: 11px 35px;
+            border: none;
+            background: #ff5500;
+            font-size: 15px;
+            color: #fff;
+            cursor: pointer;
+            transition: .3s;
+        }
+        nav button:hover{
+            scale: .9;
+        }
+        .content{
+            position: absolute;
+            top: 40%;
+            left: 90px;
+        }
+
+        h2{
+            font-size: 50px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2 span{
+            color: #ff5500;
+            text-shadow: 1px 1px gray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p{
+            color: #fff;
+            margin-top: 10px;
+            font-size: 11px;
+        }
+        .content button{
+            padding: 12px 85px;
+            color: #fff;
+            background: #ff5500;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            margin-top: 50px;
+            transition: .3s;
+        }
+
+        .content button:hover{
+            scale: 1.1;
+        }

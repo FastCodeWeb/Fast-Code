@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+    background: #ece6d8;
+}
+
+.app {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    margin-top: 13%;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background: #ece6d8;
+    z-index: 10000;
+}
+
+nav.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav.navbar a {
+    font-size: clamp(.9rem, 1.5vw, 1.1rem);
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+nav.navbar a:hover {
+    color: #f67144;
+}
+
+.right-side-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side-nav input {
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.search-box {
+    border: 2px solid #252525;
+    border-radius: 2rem;
+    padding: 10px 15px;
+}
+
+.right-side-nav button {
+    padding: 0.9rem 1.5rem;
+    background: #f67144;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: scale .3s ease;
+}
+
+.right-side-nav button:hover {
+    scale: 0.9;
+}
+
+/* Home Section */
+
+
+section.home .boxes {
+    display: grid;
+    grid-template-areas:
+        "bx-1 bx-2 bx-3 bx-4"
+        "bx-5 bx-2 bx-3 bx-6"
+        "bx-7 bx-2 bx-3 bx-6"
+        "bx-7 bx-2 bx-8 bx-6"
+        "bx-7 bx-2 bx-8 bx-6"
+        "bx-7 bx-10 bx-8 bx-6"
+        "bx-7 bx-10 bx-8 bx-11"
+        "bx-9 bx-10 bx-8 bx-11";
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+.box {
+    border-radius: 2rem;
+    width: clamp(12.5rem, 21vw, 25rem);
+    transition: .4s;
+}
+.box:hover{
+    scale: 0.9;
+}
+
+.box-1 {
+    grid-area: bx-1;
+    background: url(images/bx_1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0rem;
+
+}
+
+.box-2 {
+    grid-area: bx-2;
+    height: 590px;
+    background: url(images/bx_2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-3 {
+    grid-area: bx-3;
+    height: 460px;
+    background: url(images/bx_3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-4 {
+    grid-area: bx-4;
+    height: 150px;
+    background: #db6d3c;
+}
+
+.box-5 {
+    grid-area: bx-5;
+    height: 150px;
+    background: #ecb54e;
+}
+
+.box-6 {
+    grid-area: bx-6;
+    height: 680px;
+    background: url(images/bx_6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-7 {
+    grid-area: bx-7;
+    height: 560px;
+    background: url(images/bx_7.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-8 {
+    grid-area: bx-8;
+    height: 590px;
+    background: url(images/bx_8.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-9 {
+    grid-area: bx-9;
+    height: 150px;
+    background: #ecb54e;
+}
+
+.box-10 {
+    grid-area: bx-10;
+    height: 460px;
+    background: url(images/bx_10.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-11 {
+    grid-area: bx-11;
+    height: 200px;
+    background: url(images/bx_11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxes-wrapper{
+    overflow-x:auto;
+}
+
+section.menu h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+}
+.food-items{
+    display: flex;
+    gap: 30px;
+    margin: 100px 0;
+}
+
+.food-items p{
+    margin: 10px 0;
+}
+
+.food-item {
+    background: #fff;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: .8rem;
+}
+.food-item img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.food-item .about-food{
+    font-size: 14px;
+    color: gray;
+}
+
+.food-status{
+    color: #db6d3c;
+    font-size: 14px;
+}
+.food-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-info p{
+    background: #ededed;
+    border-radius: 0.4rem;
+    font-size: 18px;
+}
+.food-info .food-rating{
+    padding:1px 5px ;
+}
+
+.food-item button{
+    padding: 12px 0;
+    border-radius: .5rem;
+    background: #f67144;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    transition: .3s;
+}
+.food-item button:hover{
+    scale: .9;
+}
+
+/* Footer Starts */
+
+footer{
+    background: #f67144;
+    height: 300px;
+    padding: 0 80px;
+}
+
+footer h3{
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #ffe4e4;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.footer-links div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links div input{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 2rem;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon h3{
+    font-size: 15px;
+}
+
+.footer-icon i{
+    color: #e24a08;
+    background: #fff;
+    padding: 10px;
+    border-radius: 2rem;
+    text-align: center;
+}
